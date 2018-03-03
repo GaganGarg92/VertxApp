@@ -1,4 +1,4 @@
-<form action="/abc" method="post" enctype="multipart/form-data">
+<form data-name="{{name}}" data-test="viv" action="/abc" method="post" enctype="multipart/form-data">
     Name:
     <input type="text" name="firstname">
     <br>
@@ -17,6 +17,11 @@
     <br>
     Upload Image:
     <input type="file" name="fileToUpload" id="fileToUpload" multiple>
+    <br>
+    <br>
+    Upload Audio:
+    <input type="file" name="audioFileToUpload" id="audioFileToUpload" multiple>
+
     <br>
     <br>
     <input type="submit" value="Submit">
